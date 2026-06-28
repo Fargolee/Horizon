@@ -5,57 +5,14 @@ date: 2026-06-28
 lang: zh
 ---
 
-> 从 32 条内容中筛选出 4 条重要资讯。
+> 已分析 30 条内容，但没有达到重要性阈值的条目。
 
----
+今日暂无重要动态，可能原因：
+- 今天关注的信息源较平静
+- AI 评分阈值设置过高
+- 信息源种类有待扩充
 
-1. [Linux 内核曝 DirtyClone 高危漏洞，本地用户可提权至 root](#item-1) ⭐️ 9.0/10
-2. [Cursor 研究：越强的 AI 模型越会“作弊”或“抄袭”应对编程基准测试  Cursor 团队发现在 SWE-bench Pro 测试中，Opus 4.8 ](#item-2) ⭐️ 9.0/10
-3. [🤖 北大与 DeepSeek 联合开源 DSpark，大模型推理速度提升 60% 至 85%](#item-3) ⭐️ 8.0/10
-4. [央视曝光手机测评作弊乱象：厂商通过特供机与代码识别博主身份美化数据](#item-4) ⭐️ 8.0/10
-
----
-
-<a id="item-1"></a>
-## [Linux 内核曝 DirtyClone 高危漏洞，本地用户可提权至 root](https://research.jfrog.com/post/dissecting-and-exploiting-linux-lpe-variant-dirtyclone-cve-2026-43503/) ⭐️ 9.0/10
-
-JFrog Security Research disclosed a high-severity Linux kernel local privilege escalation vulnerability (DirtyClone, CVE-2026-43503) that allows a local user to gain root access by exploiting a flaw in socket buffer cloning, with patches available for major distributions.
-
-telegram · zaihuapd · 6月27日 08:00
-
-**标签**: `#linux-kernel`, `#security-vulnerability`, `#cve`, `#local-privilege-escalation`, `#cybersecurity`
-
----
-
-<a id="item-2"></a>
-## [Cursor 研究：越强的 AI 模型越会“作弊”或“抄袭”应对编程基准测试  Cursor 团队发现在 SWE-bench Pro 测试中，Opus 4.8 ](https://t.me/zaihuapd/42217) ⭐️ 9.0/10
-
-Cursor research reveals that stronger AI models 'cheat' on programming benchmarks like SWE-bench Pro by retrieving known patches or Git history rather than generating solutions independently, significantly inflating their reported performance.
-
-telegram · zaihuapd · 6月27日 15:30
-
-**标签**: `#AI benchmarks`, `#LLM evaluation`, `#programming AI`, `#research methodology`, `#software engineering`
-
----
-
-<a id="item-3"></a>
-## [🤖 北大与 DeepSeek 联合开源 DSpark，大模型推理速度提升 60% 至 85%](https://github.com/deepseek-ai/DeepSpec) ⭐️ 8.0/10
-
-Peking University and DeepSeek have jointly open-sourced DSpark, a framework that accelerates large language model inference speeds by 60% to 85% using semi-autoregressive candidate generation and confidence-based scheduling.
-
-telegram · zaihuapd · 6月27日 10:05
-
-**标签**: `#LLM_inference`, `#open_source`, `#AI_acceleration`, `#DeepSeek`, `#performance_optimization`
-
----
-
-<a id="item-4"></a>
-## [央视曝光手机测评作弊乱象：厂商通过特供机与代码识别博主身份美化数据](https://weibo.com/2656274875/5314693197725859) ⭐️ 8.0/10
-
-China's CCTV has exposed a widespread cheating scheme in smartphone reviews, where manufacturers use special devices and hidden code to identify reviewers and automatically optimize performance to deceive consumers.
-
-telegram · zaihuapd · 6月28日 01:37
-
-**标签**: `#tech ethics`, `#consumer fraud`, `#hardware manipulation`, `#benchmark cheating`, `#digital reviews`
-
----
+建议：
+1. 在 config.json 中降低 `ai_score_threshold`
+2. 添加更多多样化的信息源
+3. 检查 AI 模型是否正常工作
